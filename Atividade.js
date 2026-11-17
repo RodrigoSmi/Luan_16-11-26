@@ -15,9 +15,15 @@ console.log(comDesconto(100));
 let idade = 20;
 let situacao = idade >= 18 ? "Maior de idade" : "Menor de idade";
 
-const statusNota = (nota) => (nota >= 7 ? "Aprovado" : "Reprovado");
+console.log(situacao);
 
-const textoBotao = (logado) => (logado ? "Sair" : "Entrar");
+const resultado = (nota) => (nota >= 7 ? "Aprovado" : "Reprovado");
+
+console.log(resultado(8));
+
+const textBotao = (logado) => (logado ? "Sair" : "Entrar");
+
+console.log(textBotao(true));
 
 3
 
